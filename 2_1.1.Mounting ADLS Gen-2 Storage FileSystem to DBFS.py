@@ -1,4 +1,8 @@
 # Databricks notebook source
+#this is the new code change after 1st commit
+
+# COMMAND ----------
+
 storageAccount="anirbanstoragegen2"
 mountpoint = "/mnt/Gen2"
 storageEndPoint ="abfss://rawdata@{}.dfs.core.windows.net/".format(storageAccount)
